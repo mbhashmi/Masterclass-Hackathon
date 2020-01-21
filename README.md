@@ -7,18 +7,19 @@ A simple baseline provide training and validation script to predict mutation fro
  
 ## Dataset requirements
 1.	Tumor region of H&E stained whole slide images tiled into blocks of size 512 by 512, arranged in a separate directory per whole slide image.
-2.	A lib_train.csv where each row contains: 
-a.	“SLIDES”: are the names of directories where whole slides image are stored as tiles of size 512 by 512
-b.	“Mutation”: is the label information for each slide (1 for mutation present, 0 otherwise)
-Sample train and test set csv  files are provided in the “data” folder of this repository.
+2. Train and test set csv  files are provided in the “data” folder of this repository.
+3.	In data/train.csv each row contains: 
+*	“SLIDES”: are the names of directories where whole slides image are stored as tiles of size 512 by 512
+*	“Mutation”: is the label information for each slide (1 for mutation present, 0 otherwise)
+
 This implementation is also inspired from and reuses few routines from another github repository [3] which contains implementation of Campanella et al. 2019. 
 
 ## Baseline Results
 
- M1: 0.81 (AUC)
- M2: 0.64 (AUC)
- M3: 0.55 (AUC)
- M4: 0.62 (AUC)
+ M1: 0.81 (AUC)\ 
+ M2: 0.64 (AUC)\
+ M3: 0.55 (AUC)\
+ M4: 0.62 (AUC)\
 
 
 ## References:
