@@ -3,7 +3,7 @@
 ## Introduction
 A simple baseline provide training and validation script to predict mutation from the H&E stained whole slide images. This pipeline reproduces the results reported in [1, 2].
 
-![img desc](/fig/1.png)
+![](/fig/fig.png)
  
 ## Dataset requirements
 1.	Tumor region of H&E stained whole slide images tiled into blocks of size 512 by 512, arranged in a separate directory per whole slide image.
