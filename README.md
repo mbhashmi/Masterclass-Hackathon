@@ -19,7 +19,7 @@ This implementation is also inspired from and reuses few routines from another g
  M1: 0.81 (AUC)\
  M2: 0.64 (AUC)\
  M3: 0.55 (AUC)\
- M4: 0.62 (AUC)\
+ M4: 0.62 (AUC)
 
 ## References:
 1.	Kather, J.N., Pearson, A.T., Halama, N. et al. Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer. Nat Med 25, 1054–1056 (2019) doi:10.1038/s41591-019-0462-y
