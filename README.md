@@ -15,10 +15,10 @@ This implementation is also inspired from and reuses few routines from another g
 
 ## Baseline Results
 
-# M1: 0.81 (AUC)
-# M2: 0.64 (AUC)
-# M3: 0.55 (AUC)
-# M4: 0.62 (AUC)
+### M1: 0.81 (AUC)
+### M2: 0.64 (AUC)
+### M3: 0.55 (AUC)
+### M4: 0.62 (AUC)
 
 
 ## References:
